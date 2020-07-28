@@ -1,0 +1,15 @@
+---
+- hosts: all
+
+  tasks:
+    - include_role:
+        name: ayltai.macos_setup
+    - include_tasks: tasks/settings.yml
+
+  vars_prompt:
+    - name: sudo_password
+      prompt: root password
+      when: macos_homebrew_cask_packages != []
+
+  vars_files:
+    - vars/main.yml

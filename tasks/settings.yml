@@ -1,0 +1,41 @@
+---
+- name: updates Visual Studio Code preferences
+  copy:
+    src: vscode_settings.json
+    dest: "{{ ansible_env.HOME }}/Library/Application Support/Code/User/settings.json"
+
+- name: copy IntelliJ Idea settings file
+  copy:
+    src: intellij-mac.zip
+    dest: "{{ macos_download_path }}"
+
+- name: copy WebStorm settings file
+  copy:
+    src: webstorm-mac.zip
+    dest: "{{ macos_download_path }}"
+
+- name: copy PyCharm settings file
+  copy:
+    src: pycharm-mac.zip
+    dest: "{{ macos_download_path }}"
+
+- name: copy Android Studio settings file
+  copy:
+    src: androidstudio-mac.zip
+    dest: "{{ macos_download_path }}"
+
+- name: ensures UltraEdit settings files path exists
+  file:
+    path: "{{ ansible_env.HOME }}/Library/Application Support/UltraEdit"
+    state: directory
+
+- name: copy UltraEdit settings files
+  copy:
+    src: "{{ item }}"
+    dest: "{{ ansible_env.HOME }}/Library/Application Support/UltraEdit"
+  with_items:
+    - uex.conf
+    - uex.conf_vol
+    - Uex.tb0
+    - ultraedit.spl
+    - UltraEdit.uek

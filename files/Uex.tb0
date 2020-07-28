@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ASCII"?>
+<TOOLBARS>
+  <Toolbar Name="HTML" User="false">
+    <Check Name="View Tag List">CG_ID_VIEW_TAGLIST</Check>
+    <Button Name="HTML Bold">ID_HTML_CMD01</Button>
+    <Button Name="HTML Italic">ID_HTML_CMD02</Button>
+    <Button Name="HTML Underline">ID_HTML_CMD03</Button>
+    <Button Name="HTML Increase Indents">ID_HTML_CMD04</Button>
+    <Button Name="HTML Bullets">ID_HTML_CMD05</Button>
+    <Button Name="HTML Numbering">ID_HTML_CMD06</Button>
+    <Button Name="HTMLForeground Color">ID_HTML_CMD07</Button>
+    <Button Name="HTML Background Color">ID_HTML_CMD08</Button>
+    <Button Name="HTML Align Left">ID_HTML_CMD09</Button>
+    <Button Name="HTML Center">ID_HTML_CMD10</Button>
+    <Button Name="HTML Align Right">ID_HTML_CMD11</Button>
+    <Button Name="HTML Justify">ID_HTML_CMD12</Button>
+    <Button Name="HTML Div">ID_HTML_CMD13</Button>
+    <Button Name="HTML Button">ID_HTML_CMD14</Button>
+    <Button Name="HTML Text Field">ID_HTML_CMD15</Button>
+    <Button Name="HTML Text Area">ID_HTML_CMD16</Button>
+    <Button Name="HTML Password Field">ID_HTML_CMD17</Button>
+    <Button Name="HTML Hidden">ID_HTML_CMD18</Button>
+    <Button Name="HTML Checkbox">ID_HTML_CMD19</Button>
+    <Button Name="HTML Radio Button">ID_HTML_CMD20</Button>
+    <Button Name="HTML Image">ID_HTML_CMD21</Button>
+    <Button Name="HTML Image Button">ID_HTML_CMD22</Button>
+    <Button Name="HTML Anchor">ID_HTML_CMD23</Button>
+    <Button Name="Text2HTML">ID_HTML_TEXT2HTML</Button>
+    <Button Name="HTML Encode/Decode">ID_HTML_ENCODEDECODE</Button>
+    <Button Name="HTML Protector">ID_HTML_PROTECTOR</Button>
+  </Toolbar>
+  <Toolbar Name="Scripting" User="false">
+    <Button Name="Scripts">ID_SCRIPTS</Button>
+    <Button Name="Run Active Script">ID_PLAYACTIVESCRIPT</Button>
+    <Check Name="Script List">CG_ID_VIEW_SCRIPTLIST</Check>
+  </Toolbar>
+  <Toolbar Name="Macros" User="false">
+    <Button Name="Quick Record">ID_MACRO_QUICKRECORD</Button>
+    <Button Name="Record">ID_MACRO_RECORD</Button>
+    <Button Name="Stop Recording">ID_MACRO_STOPRECORDING</Button>
+    <Sep/>
+    <Button Name="Play Again">ID_MACRO_PLAY</Button>
+    <Button Name="Play Any/Multiple Times">ID_MACRO_PLAYMULTIPLETIMES</Button>
+    <Sep/>
+    <Button Name="Edit Macro">ID_EDIT_MACRO</Button>
+    <Button Name="Load and Append to Existing">ID_MACRO_LOADAPPEND</Button>
+    <Button Name="Delete Macro/Modify Properties">ID_MACROMODIFY</Button>
+    <Button Name="Unload All">ID_MACRODELETEALL</Button>
+    <Button Name="Save All Macros">ID_MACRO_SAVE</Button>
+    <Sep/>
+    <Check Name="Macro List">CG_ID_VIEW_MACROLIST</Check>
+  </Toolbar>
+  <Toolbar Name="Web" User="false">
+    <Button Name="Google Search">ID_WEBSEARCH_GOOGLE</Button>
+    <Button Name="Yahoo Search">ID_WEBSEARCH_YAHOO</Button>
+    <Button Name="Wikipedia Search">ID_WEBSEARCH_WIKIPEDIA</Button>
+    <Button Name="Dictionary.com Search">ID_WEBSEARCH_DICTIONARY</Button>
+    <Button Name="Whois Search">ID_WEBSEARCH_WHOIS</Button>
+    <Button Name="Thesaurus Search">ID_WEBSEARCH_THESAURUS</Button>
+    <Button Name="Network Solutions Search">ID_WEBSEARCH_NETSOLUTIONS</Button>
+    <Button Name="PHP.net Search">ID_WEBSEARCH_PHPNET</Button>
+    <Button Name="cplusplus.com Search">ID_WEBSEARCH_CPLUSPLUS</Button>
+    <Button Name="MSDN Online Search">ID_WEBSEARCH_MSDNONLINE</Button>
+    <Button Name="Apple Developer Search">ID_WEBSEARCH_APPLE</Button>
+    <Button Name="Bing Search">ID_WEBSEARCH_BING</Button>
+  </Toolbar>
+  <Toolbar Name="Tools" User="false">
+    <Button Name="Color Selector">ID_TOOLS_COLORPICKER</Button>
+    <Button Name="Style Builder">ID_TOOLS_STYLEBUILDER</Button>
+    <Button Name="HTML Tidy">ID_TOOLS_HTMLTIDY</Button>
+    <Button Name="UUID Generator">ID_TOOLS_GUIDGEN</Button>
+    <Button Name="Number Converter">ID_TOOLS_CONVERTNUMBER</Button>
+    <Button Name="Artistic Style">ID_TOOLS_ASTYLE</Button>
+    <Button Name="XMLLint Tool">ID_TOOLS_XMLLINT</Button>
+  </Toolbar>
+  <Toolbar Name="Main" User="false">
+    <Button Name="New">ID_FILE_NEW</Button>
+    <Button Name="Open">ID_FILE_OPEN</Button>
+    <Button Name="Close All Files">ID_FILE_CLOSEALL</Button>
+    <Button Name="Save All">ID_FILE_SAVE_ALL</Button>
+    <Sep/>
+    <Check Name="Column">ID_COLUMN_MODE</Check>
+    <Check Name="Hex">ID_HEX_EDIT</Check>
+    <Sep/>
+    <Button Name="Find">ID_FIND</Button>
+    <Button Name="Previous">ID_FIND_PREV</Button>
+    <Button Name="Next">ID_FIND_NEXT</Button>
+    <Button Name="Replace">ID_REPLACE</Button>
+    <Sep/>
+    <Button Name="Go To">ID_GOTO</Button>
+    <Sep/>
+    <Button Name="Duplicate">ID_WINDOW_NEW</Button>
+    <Check Name="Horizontal">ID_SPLIT_WINDOW</Check>
+    <Check Name="Vertical">ID_SPLIT_VERTICAL</Check>
+  </Toolbar>
+</TOOLBARS>
