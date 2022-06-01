@@ -2,7 +2,7 @@
 
 [![GitHub workflow status](https://img.shields.io/github/workflow/status/ayltai/brew-my-mac/CI?style=flat)](https://github.com/ayltai/brew-my-mac/actions)
 ![macOS](https://img.shields.io/badge/macOS-10.11--10.15.6-blue.svg?style=flat&label=macOS&maxAge=300)
-![Maintenance](https://img.shields.io/maintenance/yes/2020?style=flat)
+![Maintenance](https://img.shields.io/maintenance/yes/2022?style=flat)
 [![License](https://img.shields.io/github/license/ayltai/brew-my-mac.svg?style=flat)](https://github.com/ayltai/brew-my-mac/blob/master/LICENSE)
 
 An [Ansible](https://www.ansible.com) playbook that downloads, installs and configures most of the software I use on my Mac for software development with a single command.

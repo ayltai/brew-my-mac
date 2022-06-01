@@ -6,6 +6,7 @@ macos_homebrew_packages:
   - unzip
   - wget
   - node
+  - openjdk
   - ansible-lint
   - molecule
   - terraform
@@ -13,12 +14,12 @@ macos_homebrew_packages:
   - mas
 
 macos_homebrew_cask_packages:
+  - the-unarchiver
   - firefox
   - google-chrome
   - docker
   - intellij-idea
   - webstorm
-  - pycharm
   - visual-studio-code
   - android-sdk
   - android-platform-tools
@@ -27,12 +28,13 @@ macos_homebrew_cask_packages:
   - virtualbox-extension-pack
   - genymotion
   - sourcetree
-  - notion
   - flux
   - onyx
+  - aldente
   - spotify
   - zoomus
-  - intel-power-gadget
+  - app-tamer
+  - lulu
 
 macos_appstore_apps:
   - 540348655 # Monosnap - screenshot editor
@@ -40,41 +42,3 @@ macos_appstore_apps:
 macos_archived_packages:
   - name: ImageOptim
     url: https://imageoptim.com/ImageOptim.tbz2
-
-macos_java_packages:
-  - name: adoptopenjdk-8-openj9
-    package: OpenJDK8U-jdk_x64_mac_openj9_8u262b10_openj9-0.21.0.pkg
-    url: https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u262-b10_openj9-0.21.0/OpenJDK8U-jdk_x64_mac_openj9_8u262b10_openj9-0.21.0.pkg
-    checksum: sha256:662dec036e16ff91868abbce98f9e10c04325bc5b2dafdbdc16935bce1aec758
-  - name: adoptopenjdk-11-openj9
-    package: OpenJDK11U-jdk_x64_mac_openj9_11.0.8_10_openj9-0.21.0.pkg
-    url: https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.8%2B10_openj9-0.21.0/OpenJDK11U-jdk_x64_mac_openj9_11.0.8_10_openj9-0.21.0.pkg
-    checksum: sha256:edb4e8e567ff4bec78c25aecc184556130c328b8e5bc2e719793e6538beb43a7
-  - name: adoptopenjdk-14-openj9
-    package: OpenJDK14U-jdk_x64_mac_openj9_14.0.2_12_openj9-0.21.0.pkg
-    url: https://github.com/AdoptOpenJDK/openjdk14-binaries/releases/download/jdk-14.0.2%2B12_openj9-0.21.0/OpenJDK14U-jdk_x64_mac_openj9_14.0.2_12_openj9-0.21.0.pkg
-    checksum: sha256:8aad7e930d34244489a10149a4346cecd8484ca7f440f7916bb9ec1e43275c2b
-
-macos_graalvm_packages:
-  - name: graalvm-ce-java8-20.1.0
-    package: graalvm-ce-java8-darwin-amd64-20.1.0.tar.gz
-    url: https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.1.0/graalvm-ce-java8-darwin-amd64-20.1.0.tar.gz
-  - name: graalvm-ce-java11-20.1.0
-    package: graalvm-ce-java11-darwin-amd64-20.1.0.tar.gz
-    url: https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.1.0/graalvm-ce-java11-darwin-amd64-20.1.0.tar.gz
-
-vscode_extentions:
-  - formulahendry.dotnet-test-explorer
-  - ginfuru.ginfuru-vscode-jekyll-syntax
-  - golang.go
-  - hashicorp.terraform
-  - jithurjacob.nbpreviewer
-  - ldez.ignore-files
-  - ms-azuretools.vscode-docker
-  - ms-dotnettools.csharp
-  - ms-python.python
-  - PKief.material-icon-theme
-  - redhat.vscode-yaml
-  - samghelms.jupyter-notebook-vscode
-  - vscoss.vscode-ansible
-  - zhuangtongfa.material-theme
