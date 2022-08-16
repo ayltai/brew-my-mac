@@ -14,7 +14,6 @@ macos_homebrew_packages:
   - mas
 
 macos_homebrew_cask_packages:
-  - the-unarchiver
   - firefox
   - google-chrome
   - docker
@@ -24,9 +23,6 @@ macos_homebrew_cask_packages:
   - android-sdk
   - android-platform-tools
   - android-studio
-  - virtualbox
-  - virtualbox-extension-pack
-  - genymotion
   - sourcetree
   - flux
   - onyx
@@ -35,6 +31,7 @@ macos_homebrew_cask_packages:
   - zoomus
   - app-tamer
   - lulu
+  - crossover
 
 macos_appstore_apps:
   - 540348655 # Monosnap - screenshot editor
